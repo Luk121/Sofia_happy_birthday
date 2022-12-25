@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+body {
+    background: url(../images/colorful-watercolor-grunge-texture-background-soft-background_3248-2631.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+  }
+
+html {
+    box-shadow: inset 0 0 0 110vh rgba(0, 0, 0, 0.188);
+    height: 220vh;
+}
+
+
+/* Quote design */
+@font-face {
+    font-family: Bungee;
+    src: url(../fonts/Bungee-Regular.ttf);
+  }
+
+#quote {
+    z-index: 2;
+    transform: translate(-22%, 0);
+    text-align: center;
+    width: 180%;
+    margin: 0 auto;
+}
+
+#quote p {
+    padding: 50px 0px 50px 0px;
+    font-weight: 700;
+    line-height: 35px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Bungee";
+}
+
+/* background img */
+
+.bg-image {
+      /* The image used */
+  background-image: url("../images/background-img.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 230px; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+    position: absolute;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 60px;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+  }
+

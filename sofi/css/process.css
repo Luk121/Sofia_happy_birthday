@@ -1,0 +1,25 @@
+.counters {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.counterDiv {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.268);
+    border-color: white 1px;
+    text-align: center;
+    color: white;
+}
+
+.counterDiv h3 {
+    transform: translate(0, 95px);
+    font-size: 1.8em;
+}
+
+.counterDiv p {
+    transform: translate(0, 8px);
+
+}
